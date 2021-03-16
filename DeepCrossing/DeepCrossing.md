@@ -1,6 +1,6 @@
 # DeepCrossing
 
-<img src="/Users/jiahongxie/Desktop/GitHub/recModel/DeepCrossing/DeepCrossing.png" alt="	" style="zoom:50%;" />
+<img src="/Users/jiahongxie/Desktop/GitHub/recModel/DeepCrossing/pic/DeepCrossing.png" alt="	" style="zoom:50%;" />
 
 ## 1、简介
 
@@ -46,7 +46,7 @@ dnn_inputs = Concatenate(axis=1)([dense_dnn_inputs, sparse_dnn_inputs]) # B x (n
 
 ​		**3）Multiple Residual Units Layer**
 
-<img src="/Users/jiahongxie/Desktop/GitHub/recModel/DeepCrossing/ResidualUnits.png" alt="	" style="zoom: 50%;" />
+<img src="/Users/jiahongxie/Desktop/GitHub/recModel/DeepCrossing/pic/ResidualUnits.png" alt="	" style="zoom: 50%;" />
 
 ​			字面意思这是一个有多个残差网络组成的DNN层，Deep Crossing简化了这个残差单元，只是用两层神经网络构建残差网络。			
 
